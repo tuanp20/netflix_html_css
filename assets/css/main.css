@@ -1,0 +1,79 @@
+.introduce{
+    background-image: url("../img/background.jpg");
+    height: 734px;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    background-color: rgb(0,0,0,0.3)
+}
+
+.introduce-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 55px;
+}
+
+.introduce-header__logo-svg{
+    font-size:20px;
+    
+}
+
+.introduce-header__wrapper-login{
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 7px 17px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+.introduce-header__wrapper-language{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 7px 17px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-right: 32px;
+    background-color: rgba(0,0,0,0);
+    outline: none;
+    cursor: pointer;
+}
+
+.introduce-conteact{
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    height: 302px;
+    margin: auto;
+    text-align: center;
+    padding: 150px 0;
+}
+.introduce-conteact__heading{
+    font-size: 4rem;
+    line-height: 4rem;
+}
+.introduce-conteact__title{
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.introduce-conteact__description{
+    font-size: 1rem;
+}
+
+.introduce-conteact__input-email{
+    height: 60px;
+    max-width: 500px;
+    width: 450px !important;
+    outline: none;
+    padding: 0 12px;
+    font-size: 1rem;
+}
+
+.introduce-conteact__input-email::placeholder{
+    font-size: 1rem;
+}
