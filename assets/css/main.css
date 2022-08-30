@@ -5,7 +5,8 @@
     background-repeat: no-repeat;
     width: 100%;
     background-size: 100%;
-    background-color: rgb(0,0,0,0.3)
+    background-image: linear-gradient(black, white, );
+    border-bottom: 8px solid #222;
 }
 
 .introduce-header{
@@ -76,4 +77,60 @@
 
 .introduce-conteact__input-email::placeholder{
     font-size: 1rem;
+}
+
+
+.content{
+    height: 468px;
+    background-color: var(--black-color);
+    display: flex;
+    align-items: center;
+    border-bottom: 8px solid #222;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content__text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content__img{
+    height: 82%;
+}
+
+.content__text-heading{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.content__text-device{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.content-3{
+    height: 242px;
+}
+
+.content-4{
+    height: 525px;
+}
+
+.content-label{
+    margin: 16px 0;
+}
+.content-label__link{
+    color: #fff !important;
+    font-size: 26px;
+    text-decoration: none;
+    position: relative;
+}
+.content-label-icon{
+    color: #fff;
+    top: 4px;
+    right: -34px;
+    position: absolute;
 }

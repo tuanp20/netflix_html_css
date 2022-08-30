@@ -335,7 +335,11 @@ body{
     margin: auto;
 }
 
-:root{
-    --text-color: #fff
+.main{
+  background-color: var(--black-color);
+}
 
+:root{
+    --text-color: #fff;
+    --black-color: #000;
 }
